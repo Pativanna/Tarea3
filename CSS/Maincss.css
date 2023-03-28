@@ -4,15 +4,15 @@
     flex-wrap: inherit;
     align-items: center;
     justify-content: space-between;
-    padding-right: 5%;
+    padding-right: 4%;
 }
 .seba-navbar{
     --bs-navbar-padding-x: 0;
     --bs-navbar-padding-y: 0.5rem;
-    --bs-navbar-color: rgba(var(--bs-emphasis-color-rgb), 0.65);
+    --bs-navbar-color: orange;
     --bs-navbar-hover-color: rgba(var(--bs-emphasis-color-rgb), 0.8);
     --bs-navbar-disabled-color: rgba(var(--bs-emphasis-color-rgb), 0.3);
-    --bs-navbar-active-color: rgba(var(--bs-emphasis-color-rgb), 1);
+    --bs-navbar-active-color: black;
     --bs-navbar-brand-padding-y: 0.3125rem;
     --bs-navbar-brand-margin-end: 1rem;
     --bs-navbar-brand-font-size: 1.25rem;
@@ -34,4 +34,19 @@
     justify-content: space-between;
     width: 95%;
     padding: var(--bs-navbar-padding-y) var(--bs-navbar-padding-x);
+}
+.padding5{
+    padding-left: 5%;
+}
+.seba-navbar-brand {
+    padding-top: var(--bs-navbar-brand-padding-y);
+    padding-bottom: var(--bs-navbar-brand-padding-y);
+    margin-right: var(--bs-navbar-brand-margin-end);
+    font-size: var(--bs-navbar-brand-font-size);
+    color: black;
+    text-decoration: none;
+    white-space: nowrap;
+}
+.nav-link.active{
+    background-color: orange;
 }
